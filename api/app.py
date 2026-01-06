@@ -11,7 +11,7 @@ def is_db_command() -> bool:
 
 def test2():
     print("Hello World2")
- 
+
 # create app
 if is_db_command():
     from app_factory import create_migrations_app
