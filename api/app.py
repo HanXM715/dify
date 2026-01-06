@@ -9,6 +9,8 @@ def is_db_command() -> bool:
         return True
     return False
 
+def test2():
+    print("Hello World2")
 
 # create app
 if is_db_command():
